@@ -1,0 +1,23 @@
+.culture {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+}
+
+.culture .column {
+    columns: 3 300px;
+}
+
+.column img {
+    border: 1px solid blue;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .column .culture {
+        display: flex;
+        flex-direction: column;
+    }
+}
