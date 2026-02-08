@@ -1,14 +1,14 @@
 const BASE_URL = 'https://dmychel.github.io/photo-gallery'
 
 export async function call() {
-    fetch(`${BASE_URL}/portraits.json`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Network Response was not ok");
-            }
-            return response.json()
-        })
-        .then(data => {
-            console.log(data.photos[0].url)
-        })
+    const response = await fetch(`${BASE_URL}/portraits.json`);
+
+    if (!response.ok) {
+        throw new Error("Netowrk response was not ok");
+    }
+
+    const json = await response.json();
+    const data = json.photos[0].url;
+    return data;
+
 } 
