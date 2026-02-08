@@ -1,16 +1,29 @@
-import styles from '/src/styles/gridContainer.module.scss'
+// styles
+import styles from '/src/styles/gridContainer.module.scss';
+
+// functions
+import { call } from '../api/fetch';
+
+async function init() {
+    try {
+        const data = await call();
+        console.log(data + 'caught')
+        console.log()
+    } catch (err) {
+        console.log(err)
+    }
+}
+init()
+
 function Culture() {
     return (
         <div className={styles.culture}>
             <div className={styles.column}>
-                <img src="/assets/images/4.jpg" alt="photo" />
-                <img src="/assets/images/5.jpg" alt="photo" />
-                <img src="/assets/images/3.jpg" alt="photo" />
-                <img src="/assets/images/1.jpg" alt="photo" />
-                <img src="/assets/images/2.jpg" alt="photo" />
+
             </div>
         </div>
     )
 }
+
 
 export { Culture };
