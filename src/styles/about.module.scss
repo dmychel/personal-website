@@ -1,0 +1,30 @@
+.about {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 4rem 0;
+    display: flex;
+}
+
+.left .right {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.left {
+    width: 1fr;
+    border: 2px solid;
+}
+
+.right {
+    width: 2fr;
+    border: 2px solid;
+    margin: auto;
+}
+
+.left img {
+    width: 55%;
+    height: auto;
+    border-radius: 100%;
+}
