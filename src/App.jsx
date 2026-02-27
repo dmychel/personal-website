@@ -2,12 +2,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // routes
+import { Index } from "./routes/Index";
 import { About } from "./routes/About";
 import { Culture } from "./routes/Culture";
+import { Portraits } from "./routes/Portriats";
+import { Bulletin } from "./routes/Bulletin";
+import { Error } from "./routes/Error";
 
 // components
 import { Header } from "./components/Header";
-
 
 function App() {
   return (
@@ -15,8 +18,12 @@ function App() {
       <Header />
       <main>
         <Routes>
+          <Route path='/' element={<Index />} />
           <Route path="/about" element={<About />} />
           <Route path='/photography/culture' element={<Culture />} />
+          <Route path="/photography/portraits" element={<Portraits />} />
+          <Route path="/photography/bulletin" element={<Bulletin />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </main>
     </BrowserRouter>
