@@ -9,9 +9,9 @@ function Header() {
     return (
         <header>
             <ul>
-                <li><Link to='/photography/culture' >Photography</Link> |</li>
-                <li><Link to='/'>Traditional Art</Link> |</li>
-                <li><Link to='/'>Digital Art</Link> |</li>
+                <li><Link to='/' >Portraits</Link> |</li>
+                <li><Link to='/photography/culture'>Culture</Link> |</li>
+                <li><Link to='/photography/bulletin'>Projects</Link> |</li>
                 <li><Link to='/about'>About</Link></li>
             </ul>
         </header>
