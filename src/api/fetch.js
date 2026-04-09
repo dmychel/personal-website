@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 export const BASE_URL = 'https://dmychel.github.io/photo-gallery'
 
 export async function fetchAPI({ photos, setPhotos }, jsonURL) {
-    console.log(photos, setPhotos)
+    // console.log(photos, setPhotos)
     const response = await fetch(`${BASE_URL}/${jsonURL}`);
 
     if (!response.ok) {
