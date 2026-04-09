@@ -3,7 +3,7 @@ export const BASE_URL = 'https://dmychel.github.io/photo-gallery'
 
 export async function fetchAPI({ photos, setPhotos }) {
     console.log(photos, setPhotos)
-    const response = await fetch(`${BASE_URL}/portraits.json`);
+    const response = await fetch(`${BASE_URL}/culture.json`);
 
     if (!response.ok) {
         throw new Error("Netowrk response was not ok");
