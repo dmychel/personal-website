@@ -5,11 +5,11 @@ import styles from '/src/styles/gridContainer.module.scss';
 // functions
 import { callFetch } from '../api/callFetch';
 
-function Culture() {
+function Bulletin() {
     const [photos, setPhotos] = useState([]);
 
     useEffect(() => {
-        callFetch({ photos, setPhotos }, 'culture.json')
+        callFetch({ photos, setPhotos }, 'bulletin.json')
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
@@ -19,11 +19,11 @@ function Culture() {
             <div className={styles.column}>
 
                 {photos.map((photo, index) => (
-                    < img key={index} src={`https://dmychel.github.io/photo-gallery/photography/culture/${photo.url}.jpg`} alt={photo.url} />
+                    < img key={index} src={`https://dmychel.github.io/photo-gallery/photography/bulletin/${photo.url}.jpg`} alt={photo.url} />
                 ))
                 }
             </div>
         </div>
     )
 }
-export { Culture };
+export { Bulletin };
