@@ -2,10 +2,12 @@
     max-width: 1224px;
     width: 90%;
     margin: auto;
+    color: white;
 }
 
 .culture h1 {
     padding: 1rem 0;
+    text-align: center;
 }
 
 .culture .column {
@@ -22,5 +24,10 @@
     .column .culture {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .column img {
+        margin-bottom: 1.5rem;
     }
 }
