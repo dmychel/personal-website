@@ -16,7 +16,7 @@ function Portraits() {
 
     return (
         <div className={styles.culture}>
-            <h1>The Culture</h1>
+            <h1>Portraits</h1>
             <div className={styles.column}>
 
                 {photos.map((photo, index) => (
