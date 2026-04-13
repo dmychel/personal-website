@@ -1,7 +1,7 @@
 import { fetchAPI } from "./fetch";
 
-function callFetch({ photos, setPhotos }, jsonURL) {
-    fetchAPI({ photos, setPhotos }, jsonURL)// path to your JSON file
+function callFetch({ setPhotos }, jsonURL) {
+    fetchAPI(jsonURL)// path to your JSON file
         .then((res) => res)
         .then((data) => {
             console.log(data)
