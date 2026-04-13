@@ -10,6 +10,7 @@ function Header() {
         <header>
             <ul>
                 <li><Link to='/' >Portraits</Link> |</li>
+                <li><Link to='/photography/streets'>The Streets</Link> |</li>
                 <li><Link to='/photography/culture'>Culture</Link> |</li>
                 <li><Link to='/photography/bulletin'>Projects</Link> |</li>
                 <li><Link to='/about'>About</Link></li>

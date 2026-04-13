@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // routes
 import { Index } from "./routes/Index";
 import { About } from "./routes/About";
+import { Streets } from "./routes/Streets";
 import { Culture } from "./routes/Culture";
 import { Portraits } from "./routes/Portriats";
 import { Bulletin } from "./routes/Bulletin";
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Portraits />} />
           <Route path="/about" element={<About />} />
+          <Route path="/photography/streets" element={<Streets />} />
           <Route path='/photography/culture' element={<Culture />} />
           {/* <Route path="/photography/portraits" element={<Portraits />} /> */}
           <Route path="/photography/bulletin" element={<Bulletin />} />
