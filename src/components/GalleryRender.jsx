@@ -1,0 +1,31 @@
+// functions
+import { useEffect, useState } from 'react';
+import { callFetch } from '../api/callFetch';
+
+// styles 
+import styles from '/src/styles/gridContainer.module.scss';
+
+function GalleryRender(page, jsonURL) {
+
+    const [photos, setPhotos] = useState([]);
+
+    useEffect(() => {
+        callFetch({ photos, setPhotos }, jsonURL)
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+
+    return (
+        <div className={styles.culture}>
+            <h1>Portraits</h1>
+            <div className={styles.column}>
+
+                {photos.map((photo, index) => (
+                    < img key={index} src={`https://dmychel.github.io/photo-gallery/photography/${page}/${photo.url}.jpg`} alt={photo.url} />
+                ))
+                }
+            </div>
+        </div>
+    )
+}
+
+export { GalleryRender }
