@@ -2,7 +2,7 @@
 import { GalleryRender } from '../components/GalleryRender';
 
 function Portraits() {
-    return GalleryRender("portraits", "portraits.json")
+    return GalleryRender("Portraits", "portraits", "portraits.json")
 }
 
 export { Portraits };
