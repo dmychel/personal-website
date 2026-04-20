@@ -5,7 +5,6 @@ import styles from '/src/styles/gridContainer.module.scss';
 // functions
 import { callFetch } from '../api/callFetch';
 
-
 function Portraits() {
     const [photos, setPhotos] = useState([]);
 
