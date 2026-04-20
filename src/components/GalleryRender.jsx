@@ -5,7 +5,7 @@ import { callFetch } from '../api/callFetch';
 // styles 
 import styles from '/src/styles/gridContainer.module.scss';
 
-function GalleryRender(page, jsonURL) {
+function GalleryRender(title, page, jsonURL) {
 
     const [photos, setPhotos] = useState([]);
 
@@ -16,7 +16,7 @@ function GalleryRender(page, jsonURL) {
 
     return (
         <div className={styles.culture}>
-            <h1>Portraits</h1>
+            <h1>{title}</h1>
             <div className={styles.column}>
 
                 {photos.map((photo, index) => (
