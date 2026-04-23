@@ -1,6 +1,5 @@
 {
   "name": "personal-website",
-  "homepage": "https://dmychel.github.io/personal-website/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +12,6 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "prop-types": "^15.8.1",
     "proptypes": "^1.1.0",
     "react": "^19.2.0",
