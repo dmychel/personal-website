@@ -7,7 +7,7 @@ import styles from "/src/styles/header.module.scss";
 
 function Header() {
     return (
-        <header>
+        <header className={styles.header}>
             <ul>
                 <li><Link to='/' >Portraits</Link> |</li>
                 <li><Link to='/photography/streets'>Streets</Link> |</li>
