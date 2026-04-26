@@ -6,4 +6,7 @@
 body {
     box-sizing: border-box;
     background-color: black;
+    margin: auto;
+    max-width: 40rem;
+    padding: 1em;
 }
