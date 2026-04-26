@@ -15,7 +15,7 @@ function GalleryRender(title, page, jsonURL) {
     }, [])
 
     return (
-        <div className={styles.culture}>
+        <div className={styles.gallery}>
             <h1>{title}</h1>
             <div className={styles.column}>
 
