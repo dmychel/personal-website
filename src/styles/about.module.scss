@@ -22,7 +22,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 350px;
+    text-align: center;
+    line-height: 1.5rem;
 }
 
 @media screen and (max-width: 926px) {
@@ -34,7 +36,6 @@
     }
 
     .textContainer {
-        width: 100%;
-        text-align: center;
+        max-width: 90%;
     }
 }
