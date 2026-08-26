@@ -1,0 +1,39 @@
+.index {
+    margin-top: 5em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    // border: 1px solid red;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .catBackground {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35rem;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    p {
+        font-size: 2.5rem;
+        color: white;
+        z-index: 1;
+        user-select: none;
+    }
+
+}
