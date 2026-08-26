@@ -11,6 +11,7 @@ function Index() {
     return (
         <div className={styles.index}>
             {
+                //render categories array
                 categories.map((box, index) => (
                     <div index={index}>
                         <h1>{box.title}</h1>
