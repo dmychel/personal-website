@@ -18,10 +18,11 @@ function GalleryRender(title, page, jsonURL) {
         <div className={styles.gallery}>
             <h1>{title}</h1>
             <div className={styles.column}>
-
-                {photos.map((photo, index) => (
-                    < img key={index} src={`https://dmychel.github.io/photo-gallery/photography/${page}/${photo.url}.jpg`} alt={photo.url} />
-                ))
+                {
+                    //render photos array
+                    photos.map((photo, index) => (
+                        < img key={index} src={`https://dmychel.github.io/photo-gallery/photography/${page}/${photo.url}.jpg`} alt={photo.url} />
+                    ))
                 }
             </div>
         </div>
