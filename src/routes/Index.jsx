@@ -9,7 +9,23 @@ function Index() {
             description: '',
             cover: image,
 
-        }
+        },
+        {
+            title: 'Streets',
+            description: '',
+            cover: image,
+
+        },
+        {
+            title: 'RBDYS Boston \'23',
+            description: '',
+            cover: image,
+
+        }, {
+            title: 'Brigham & Woman\'s Bulletin',
+            description: '',
+            cover: image,
+        },
     ]
 
     return (
