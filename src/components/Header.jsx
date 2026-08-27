@@ -12,10 +12,10 @@ function Header() {
     return (
         <header className={styles.header}>
             <ul className={styles.headerUL}>
-                <li><Link to='/' >Portraits</Link> |</li>
+                <li><Link to='/photography/portraits' >Portraits</Link> |</li>
                 <li><Link to='/photography/streets'>Streets</Link> |</li>
-                <li><Link to='/photography/culture'>Culture</Link> |</li>
-                <li><Link to='/photography/bulletin'>Projects</Link> |</li>
+                <li><Link to='/photography/culture'>RDDYS</Link> |</li>
+                <li><Link to='/photography/bulletin'>BWH Bulletin</Link> |</li>
                 <li><Link to='/about'>About</Link></li>
             </ul>
             <NavDropDown />
