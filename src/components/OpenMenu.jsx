@@ -13,8 +13,8 @@ function OpenMenu({ setClicked }) {
             <ul>
                 <li><Link to='/' onClick={handleClick}>Portraits</Link></li>
                 <li><Link to='/photography/streets' onClick={handleClick}>Streets</Link></li>
-                <li><Link to='/photography/culture' onClick={handleClick}>Culture</Link></li>
-                <li><Link to='/photography/bulletin' onClick={handleClick}>Projects</Link></li>
+                <li><Link to='/photography/culture' onClick={handleClick}>RBDYS</Link></li>
+                <li><Link to='/photography/bulletin' onClick={handleClick}>BWH Bulletin</Link></li>
                 <li><Link to='/about' onClick={handleClick}>About</Link></li>
             </ul>
         </div>
