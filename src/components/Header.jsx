@@ -11,6 +11,7 @@ import NavDropDown from "./NavDropDown";
 function Header() {
     return (
         <header className={styles.header}>
+            <h1>Photography</h1>
             <ul className={styles.headerUL}>
                 <li><Link to='/photography/portraits' >Portraits</Link> |</li>
                 <li><Link to='/photography/streets'>Streets</Link> |</li>
