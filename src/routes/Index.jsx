@@ -32,7 +32,8 @@ function Index() {
                 //render categories array
                 categories.map((item, index) => (
                     <div className={styles.box} key={index}>
-                        <h1 className={styles.title}>{item.title}</h1>
+                        {/* <h1 className={styles.title}>{item.title}</h1> */}
+                        <div className={styles.hoverBack}></div>
                         <div style={{ backgroundImage: `url(${item.cover})` }} className={styles.catBackground}>
                             <p > {item.description}</p>
                         </div>
