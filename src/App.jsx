@@ -20,7 +20,7 @@ function App() {
       <main>
         <Routes>
           <Route path='/' element={<Index />} />
-          <Route path='/portraits' element={<Portraits />} />
+          <Route path='/photography/portraits' element={<Portraits />} />
           <Route path="/about" element={<About />} />
           <Route path="/photography/streets" element={<Streets />} />
           <Route path='/photography/culture' element={<Culture />} />
