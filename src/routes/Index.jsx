@@ -3,25 +3,25 @@ import styles from '/src/styles/index.module.scss'
 function Index() {
     const categories = [
         {
-            title: 'Portraits',
-            description: '',
+            title: '',
+            description: 'Portraits',
             cover: '/assets/images/portraits.jpg',
 
         },
         {
-            title: 'Streets',
-            description: '',
+            title: '',
+            description: 'Streets',
             cover: '/assets/images/streets.jpg',
 
         },
         {
-            title: 'RBDYS Boston \'23',
-            description: '',
+            title: '',
+            description: 'RBDYS Boston \'23',
             cover: '/assets/images/culture.jpg',
 
         }, {
-            title: 'Brigham & Woman\'s Bulletin',
-            description: '',
+            title: '',
+            description: 'Brigham & Woman\'s Bulletin',
             cover: '/assets/images/bulletin.jpg',
         },
     ]
