@@ -10,14 +10,29 @@
 }
 
 .box {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5em;
 
-    .title {
-        font-size: 3rem;
+    // .title {
+    //     font-size: 3rem;
+    // }
+
+    .hoverBack {
+        background-color: rgba(128, 128, 128, 0.276);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        // border: 1px solid;
+        opacity: 0;
+    }
+
+    .hoverBack:hover {
+        opacity: 1;
+        cursor: pointer;
     }
 
     .catBackground {
@@ -29,13 +44,11 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-
     }
 
     p {
         font-size: 2.5rem;
         color: white;
-        z-index: 1;
         user-select: none;
     }
 
