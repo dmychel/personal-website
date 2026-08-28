@@ -23,8 +23,7 @@ function App() {
           <Route path='/photography/portraits' element={<Portraits />} />
           <Route path="/about" element={<About />} />
           <Route path="/photography/streets" element={<Streets />} />
-          <Route path='/photography/culture' element={<Culture />} />
-          {/* <Route path="/photography/portraits" element={<Portraits />} /> */}
+          <Route path="/photography/rbdys" element={<Culture />} />
           <Route path="/photography/bulletin" element={<Bulletin />} />
           <Route path="*" element={<Error />} />
         </Routes>
