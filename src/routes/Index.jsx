@@ -1,4 +1,9 @@
+// styles
 import styles from '/src/styles/index.module.scss'
+
+// routes
+import { portraitURL, streetsURL, rbdysURL, bulletinURL } from "/src/components/pageLinks.jsx"
+
 
 function Index() {
     const categories = [
@@ -6,25 +11,25 @@ function Index() {
             title: '',
             description: 'Portraits',
             cover: '/assets/images/portraits.jpg',
-            link: `/photography/portraits`
+            link: portraitURL
 
         },
         {
             title: '',
             description: 'Streets',
             cover: '/assets/images/streets.jpg',
-            link: `/photography/streets`
+            link: streetsURL
         },
         {
             title: '',
             description: 'RBDYS Boston \'23',
             cover: '/assets/images/culture.jpg',
-            link: `/photography/rbdys`
+            link: rbdysURL
         }, {
             title: '',
             description: 'Brigham & Woman\'s Bulletin',
             cover: '/assets/images/bulletin.jpg',
-            link: `/photography/bulletin`
+            link: bulletinURL
         },
     ]
 
