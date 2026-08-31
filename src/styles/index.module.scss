@@ -23,16 +23,16 @@
 
     .hoverBack,
     a {
-        background-color: rgba(128, 128, 128, 0.276);
         height: 100%;
         width: 100%;
         position: absolute;
-        // border: 1px solid;
         opacity: 0;
     }
 
     .hoverBack:hover {
+        animation: fadeIn .25s ease-in;
         opacity: 1;
+        background-color: rgba(128, 128, 128, 0.311);
         cursor: pointer;
     }
 
@@ -53,4 +53,14 @@
         user-select: none;
     }
 
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
