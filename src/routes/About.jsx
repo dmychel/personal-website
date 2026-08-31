@@ -7,7 +7,10 @@ function About() {
                 <img src="/assets/images/profile.jpg" alt="Error Loading Image" />
             </div>
             <div className={styles.textContainer}>
-                <p>I am driven by a deep passion for capturing compelling stories through live-action, candid moments, and portrait photography. With a focus on visual storytelling, I specialize in capturing the grace, dynamism, and profound emotions in human interaction.
+                <p>
+                    I am driven by a deep passion for capturing compelling stories through live-action, candid moments, and portrait photography. With a focus on visual storytelling, I specialize in capturing the grace, dynamism, and profound emotions in human interaction.
+                    <br /><br />
+                    I am willing to about anything, give me a shout: dyloncrowley86@gmail.com
                 </p>
             </div>
         </div>
