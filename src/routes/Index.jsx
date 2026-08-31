@@ -13,7 +13,6 @@ function Index() {
             description: 'Portraits',
             cover: '/assets/images/portraits.jpg',
             link: portraitURL
-
         },
         {
             title: '',
