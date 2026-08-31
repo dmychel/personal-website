@@ -2,6 +2,7 @@
 import styles from '/src/styles/index.module.scss'
 
 // routes
+import { Link } from 'react-router-dom'
 import { portraitURL, streetsURL, rbdysURL, bulletinURL } from "/src/components/pageLinks.jsx"
 
 
@@ -41,7 +42,7 @@ function Index() {
                     <div className={styles.box} key={index}>
                         {/* <h1 className={styles.title}>{item.title}</h1> */}
                         <div className={styles.hoverBack}>
-                            <a href={item.link}></a>
+                            <Link to={item.link} />
                         </div>
                         <div style={{ backgroundImage: `url(${item.cover})` }} className={styles.catBackground}>
                             <p > {item.description}</p>
