@@ -16,7 +16,7 @@ function Header() {
             <ul className={styles.headerUL}>
                 <li><Link to={portraitURL} >Portraits</Link> |</li>
                 <li><Link to={streetsURL}>Streets</Link> |</li>
-                <li><Link to={rbdysURL}>rbdys</Link> |</li>
+                <li><Link to={rbdysURL}>RBDYS</Link> |</li>
                 <li><Link to={bulletinURL}>BWH Bulletin</Link> |</li>
                 <li><Link to={aboutURL}>About</Link></li>
             </ul>
